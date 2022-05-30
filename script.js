@@ -2,7 +2,7 @@ console.log("Welcome to Spotify");
 
 // Initialize the variables
 let songIndex = 0;
-let audioElement = new Audio('songs/1.mp3');
+let audioElement = new Audio('1.mp3');
 let masterPlay = document.getElementById('masterPlay');
 let myProgressBar = document.getElementById('myProgressBar');
 let gif = document.getElementById('gif');
@@ -10,16 +10,16 @@ let masterSongName = document.getElementById('masterSongName');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
-    { songName: "Salam-e-Ishq", filepath: "songs/1.mp3", coverpath: "covers/1.jpg" },
-    { songName: "Let me love you", filepath: "songs/2.mp3", coverpath: "covers/2.jpg" },
-    { songName: "sketchers", filepath: "songs/3.mp3", coverpath: "covers/3.jpg" },
-    { songName: "work from home", filepath: "songs/4.mp3", coverpath: "covers/4.jpg" },
-    { songName: "chain smokers", filepath: "songs/5.mp3", coverpath: "covers/5.jpg" },
-    { songName: "end is near", filepath: "songs/6.mp3", coverpath: "covers/6.jpg" },
-    { songName: "see you again", filepath: "songs/7.mp3", coverpath: "covers/7.jpg" },
-    { songName: "can we kiss forever", filepath: "songs/8.mp3", coverpath: "covers/8.jpg" },
-    { songName: "be my girl", filepath: "songs/9.mp3", coverpath: "covers/9.jpg" },
-    { songName: "I love cheap thrills", filepath: "songs/10.mp3", coverpath: "covers/10.jpg" },
+    { songName: "Salam-e-Ishq", filepath: "1.mp3", coverpath: "1.jpg" },
+    { songName: "Let me love you", filepath: "2.mp3", coverpath: "2.jpg" },
+    { songName: "sketchers", filepath: "3.mp3", coverpath: "3.jpg" },
+    { songName: "work from home", filepath: "4.mp3", coverpath: "4.jpg" },
+    { songName: "chain smokers", filepath: "5.mp3", coverpath: "/5.jpg" },
+    { songName: "end is near", filepath: "6.mp3", coverpath: "6.jpg" },
+    { songName: "see you again", filepath: "7.mp3", coverpath: "7.jpg" },
+    { songName: "can we kiss forever", filepath: "8.mp3", coverpath: "8.jpg" },
+    { songName: "be my girl", filepath: "9.mp3", coverpath: "9.jpg" },
+    { songName: "I love cheap thrills", filepath: "10.mp3", coverpath: "10.jpg" },
 ];
 
 songItems.forEach((element, i) => {
